@@ -21,7 +21,7 @@ Vue.use(TableFormItem);
 或者局部组件中引用:
 
 ```js
-import { tableFormItem as TableFormItem } from "v-prd-off";
+import { tableFormItem as TableFormItem } from "table-form-item";
 
 export default {
   components: {
