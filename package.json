@@ -1,9 +1,9 @@
 {
   "name": "table-form-item",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "private": false,
-  "main": "dist/tableFormItem.js",
+  "main": "dist/table-form-item.common.js",
   "description": "table-form-item 解决el-table无法校验表单问题",
   "repository": {
     "url": "linxiaoxiaopang/table-form-item",
@@ -12,6 +12,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build1": "vue-cli-service build --target lib --name table-form-item ./packages/component/tableFormItem.vue",
+    "build2": "vue-cli-service build --target lib --name table-form-item ./packages/index.js",
+    "build3": "vue-cli-service build --target lib --inline-vue --name table-form-item ./packages/index.js",
+    "build:wc": "vue-cli-service build --target wc --name table-form-item ./packages/component/tableFormItem.vue",
     "lint": "vue-cli-service lint",
     "i": "vue inspect > output.js",
     "bi": "vue inspect --mode=production > output.js"

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div></div>
     <TableFormItem :row="form" :required="true">
       <input type="text" v-model="form.value">
     </TableFormItem>
@@ -7,12 +8,13 @@
 </template>
 
 <script>
+import { tableFormItem as TableFormItem } from './tableFormItem'
 // import { tableFormItem as TableFormItem } from '../packages'
 export default {
   name: "App",
-  // components: {
-  //   TableFormItem
-  // },
+  components: {
+    TableFormItem
+  },
 
   data () {
     return {
