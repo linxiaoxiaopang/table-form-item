@@ -1,6 +1,6 @@
 {
   "name": "table-form-item",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "private": false,
   "main": "dist/table-form-item.common.js",
